@@ -19,7 +19,6 @@ enum ShiftState {
     func uppercase() -> Bool {
         switch self {
         case .disabled:
-            
             return false
         case .enabled:
             return true
