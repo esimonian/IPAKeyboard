@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C467465F1D9AF5AB000875BB /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C467465C1D9AF5AB000875BB /* CYRKeyboardButton.m */; };
+		C46746601D9AF5AB000875BB /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C467465E1D9AF5AB000875BB /* CYRKeyboardButtonView.m */; };
+		C46746631D9AF5E4000875BB /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C46746621D9AF5E4000875BB /* TurtleBezierPath.m */; };
 		C4B5BA8C1D9962D900CECB27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5BA8B1D9962D900CECB27 /* AppDelegate.swift */; };
 		C4B5BA8E1D9962D900CECB27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5BA8D1D9962D900CECB27 /* ViewController.swift */; };
 		C4B5BA911D9962D900CECB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B5BA8F1D9962D900CECB27 /* Main.storyboard */; };
@@ -55,6 +58,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C467465B1D9AF5AB000875BB /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
+		C467465C1D9AF5AB000875BB /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
+		C467465D1D9AF5AB000875BB /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
+		C467465E1D9AF5AB000875BB /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
+		C46746611D9AF5E4000875BB /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
+		C46746621D9AF5E4000875BB /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
+		C46746641D9AF60F000875BB /* IPA-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IPA-Bridging-Header.h"; sourceTree = "<group>"; };
 		C4B5BA881D9962D900CECB27 /* Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B5BA8B1D9962D900CECB27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4B5BA8D1D9962D900CECB27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +109,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C467465A1D9AF5AB000875BB /* CYRKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				C46746611D9AF5E4000875BB /* TurtleBezierPath.h */,
+				C46746621D9AF5E4000875BB /* TurtleBezierPath.m */,
+				C467465B1D9AF5AB000875BB /* CYRKeyboardButton.h */,
+				C467465C1D9AF5AB000875BB /* CYRKeyboardButton.m */,
+				C467465D1D9AF5AB000875BB /* CYRKeyboardButtonView.h */,
+				C467465E1D9AF5AB000875BB /* CYRKeyboardButtonView.m */,
+			);
+			path = CYRKeyboardButton;
+			sourceTree = "<group>";
+		};
 		C4B5BA7F1D9962D900CECB27 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +156,8 @@
 		C4B5BAA21D9962E900CECB27 /* IPA */ = {
 			isa = PBXGroup;
 			children = (
+				C46746641D9AF60F000875BB /* IPA-Bridging-Header.h */,
+				C467465A1D9AF5AB000875BB /* CYRKeyboardButton */,
 				C4B5BABB1D9979A200CECB27 /* Views */,
 				C4B5BAB01D99753B00CECB27 /* Model */,
 				C4B5BAAF1D99752B00CECB27 /* Controller */,
@@ -295,11 +320,14 @@
 				C4B5BABA1D99786600CECB27 /* KeyboardLayout.swift in Sources */,
 				C4D274171D9982E0003F6D5E /* ImageKey.swift in Sources */,
 				C4B5BAC11D997B9C00CECB27 /* ExtraView.swift in Sources */,
+				C467465F1D9AF5AB000875BB /* CYRKeyboardButton.m in Sources */,
 				C4B5BAB61D99760A00CECB27 /* DirectionEnum.swift in Sources */,
 				C4B5BAB21D99758500CECB27 /* DefaultKeyboard.swift in Sources */,
 				C4B5BABF1D997B4700CECB27 /* Shapes.swift in Sources */,
 				C4D2741B1D9983BD003F6D5E /* KeyboardConnector.swift in Sources */,
+				C46746601D9AF5AB000875BB /* CYRKeyboardButtonView.m in Sources */,
 				C4B5BABD1D9979B200CECB27 /* KeyboardKey.swift in Sources */,
+				C46746631D9AF5E4000875BB /* TurtleBezierPath.m in Sources */,
 				C4B5BAB81D99772600CECB27 /* ForwardingView.swift in Sources */,
 				C4D274191D9983A5003F6D5E /* DefaultSettings.swift in Sources */,
 				C4D274151D9981AE003F6D5E /* KeyboardInputTraits.swift in Sources */,
@@ -384,6 +412,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,6 +455,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -439,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = me.elizabethsimonian.Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -452,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = me.elizabethsimonian.Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -466,6 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.elizabethsimonian.Keyboard.IPA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IPA/IPA-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -478,6 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.elizabethsimonian.Keyboard.IPA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IPA/IPA-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

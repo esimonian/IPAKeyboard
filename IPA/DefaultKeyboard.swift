@@ -10,6 +10,8 @@
 func defaultKeyboard() -> Keyboard {
     let defaultKeyboard = Keyboard()
     
+    //var longPresses = generatedGetLongPresses();
+    
     for key in ["ɑ", "æ", "ɐ", "ɑ̃", "β", "ɓ", "ʙ", "ɕ", "ç", "ð"] {
         let keyModel = Key(.character)
         keyModel.setLetter(key)
@@ -120,4 +122,10 @@ func defaultKeyboard() -> Keyboard {
     
     
     return defaultKeyboard
+}
+
+func generatedGetLongPresses() -> [String: [String]] {
+    var lps = [String: [String]]()
+    lps["k"] = ["ǩ"]
+    return lps
 }

@@ -60,7 +60,6 @@ class KeyboardKey: UIControl {
             }
         }
     }
-    
     var shouldRasterize: Bool = false {
         didSet {
             for view in [self.displayView, self.borderView, self.underView] {

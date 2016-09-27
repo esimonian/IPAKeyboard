@@ -87,6 +87,9 @@ class KeyboardViewController: UIInputViewController {
             self.setHeight(newValue)
         }
     }
+    var sug_word : String = ""
+    var viewLongPopUp:CYRKeyboardButtonView = CYRKeyboardButtonView()
+    var button = CYRKeyboardButton()
     
     // TODO: why does the app crash if this isn't here?
     convenience init() {
